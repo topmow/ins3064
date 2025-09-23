@@ -14,17 +14,16 @@
             // Arithmetic operators
             echo "x : " . $x ."<br/>";
             echo "y : " . $y ."<br/>";
-            echo "x/y : " . ($x/$y) ."<br/>";
-            echo "x%y : " . ($x%$y) ."<br/>";
-            echo "x++ : " . ($x++) ."<br/>";
-            echo "++y : " . (++$y) ."<br/>";
+            echo "$x/$y : " . ($x/$y) ."<br/>";
+            echo "$x%$y : " . ($x%$y) ."<br/>";
+            echo "$x*$y : " . ($x*$y) ."<br/>";
             // Comparison operators
-            echo "x == y : " . ($x == $y) . "<br/>";
-            echo "x != y : " . ($x != $y) . "<br/>";
-            echo "x < y : ".($x<$y)."<br/>";
-            echo "x > y : " . ($x > $y) . "<br/>";
-            echo "x >= y : " . ($x >= $y) . "<br/>";
-            echo "x <= y : " . ($x <= $y) . "<br/>";
+            echo "$x == $y : " . ($x == $y) . "<br/>";
+            echo "$x != $y : " . ($x != $y) . "<br/>";
+            echo "$x < $y : ".($x<$y)."<br/>";
+            echo "$x > $y : " . ($x > $y) . "<br/>";
+            echo "$x >= $y : " . ($x >= $y) . "<br/>";
+            echo "$x <= $y : " . ($x <= $y) . "<br/>";
         ?>
     </body>
 </html>
