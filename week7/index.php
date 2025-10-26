@@ -72,7 +72,7 @@ include "connection.php";
             echo "<td>"; echo $row["email"]; echo "</td>";
             echo "<td>"; echo $row["contact"]; echo "</td>";
             echo "<td>"; ?> <a href="edit.php?id=<?php echo $row["id"]; ?>"><button type="button" class="btn btn-success">Edit </button></a> <?php echo "</td>";
-            echo "<td>"; ?> <a href="delete.php?id=<?php echo $row["id"]; ?>" onclick="return confirm('Bạn có chắc chắn muốn xóa không?');"><button type="button" class="btn btn-danger">Delete </button></a> <?php echo "</td>";
+            echo "<td>"; ?> <a href="delete.php?id=<?php echo $row["id"]; ?>" onclick="return confirm('Are you want delete?');"><button type="button" class="btn btn-danger">Delete </button></a> <?php echo "</td>";
             echo "</tr>";
         }
         ?>
